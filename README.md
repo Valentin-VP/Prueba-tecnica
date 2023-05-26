@@ -35,4 +35,4 @@ Para probar el servicio rest se pueden usar los siguientes endpoints:
 
 | Parametro | Tipo     | Descripcion                      |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id del empleado a buscar |
+| `id`      | `string` | **Required**. documento del empleado a buscar |
