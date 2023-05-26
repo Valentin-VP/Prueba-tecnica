@@ -73,7 +73,7 @@ public class EmpleadoServiceImpl implements EmpleadoService {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         dateFormat.setLenient(false);
         try {
-
+            Date fechaVinculacion = dateFormat.parse(empleadoDTO.getFechaVinculacion());
             Date fechaNacimiento = dateFormat.parse(empleadoDTO.getFechaNacimiento());
             Date fechaActual = new Date();
 
